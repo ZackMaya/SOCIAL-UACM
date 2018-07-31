@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.2.3" timestamp="2016-06-07T12:30:08.732">
+<file name="C:\Users\netoz\Documents\workspace-sts-3.7.3.RELEASE\Social-UACM\src\main\java\social\edu\uacm\WebSecurityConfig.java">
+<violation beginline="20" endline="20" begincolumn="32" endcolumn="49" rule="LongVariable" ruleset="Naming" package="social.edu.uacm" class="WebSecurityConfig" variable="userDetailsService" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like userDetailsService
+</violation>
+<violation beginline="23" endline="23" begincolumn="42" endcolumn="71" rule="LongVariable" ruleset="Naming" package="social.edu.uacm" class="WebSecurityConfig" variable="myAuthenticationSuccessHandler" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like myAuthenticationSuccessHandler
+</violation>
+</file>
+<file name="C:\Users\netoz\Documents\workspace-sts-3.7.3.RELEASE\Social-UACM\src\main\java\social\edu\uacm\dao\AlumnoDao.java">
+<violation beginline="6" endline="6" begincolumn="43" endcolumn="44" rule="ShortVariable" ruleset="Naming" package="social.edu.uacm.dao" class="AlumnoDao" method="obtenerAlumnoPorId" variable="Id" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like Id
+</violation>
+<violation beginline="6" endline="6" begincolumn="43" endcolumn="44" rule="VariableNamingConventions" ruleset="Naming" package="social.edu.uacm.dao" class="AlumnoDao" method="obtenerAlumnoPorId" variable="Id" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character, 'Id' starts with uppercase character.
+</violation>
+</file>
+<file name="C:\Users\netoz\Documents\workspace-sts-3.7.3.RELEASE\Social-UACM\src\main\java\social\edu\uacm\dao\impl\AlumnoDaoImpl.java">
+<violation beginline="28" endline="28" begincolumn="50" endcolumn="51" rule="ShortVariable" ruleset="Naming" package="social.edu.uacm.dao.impl" class="AlumnoDaoImpl" method="obtenerAlumnoPorId" variable="Id" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like Id
+</violation>
+<violation beginline="28" endline="28" begincolumn="50" endcolumn="51" rule="VariableNamingConventions" ruleset="Naming" package="social.edu.uacm.dao.impl" class="AlumnoDaoImpl" method="obtenerAlumnoPorId" variable="Id" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character, 'Id' starts with uppercase character.
+</violation>
+</file>
+<file name="C:\Users\netoz\Documents\workspace-sts-3.7.3.RELEASE\Social-UACM\src\main\java\social\edu\uacm\domain\Alumno.java">
+<violation beginline="20" endline="20" begincolumn="25" endcolumn="26" rule="ShortVariable" ruleset="Naming" package="social.edu.uacm.domain" class="Alumno" variable="id" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="65" endline="65" begincolumn="35" endcolumn="36" rule="ShortVariable" ruleset="Naming" package="social.edu.uacm.domain" class="Alumno" method="setId" variable="id" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+</file>
+</pmd>

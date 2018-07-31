@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+     xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+	<title>Ingeniería de Software</title>
+	<link rel="shortcut icon" type="image/x-icon" href="./imagenes/favicon.ico">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<!--Para reconocer acentos y caracteres especiales-->
+	<!--estilo-->
+	<link rel="stylesheet" href="./css/estilo.css" />
+	<link rel="stylesheet" href="./css/demo.css" />
+	<link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css' />
+    <link href="./css/ticker-style.css" rel="stylesheet" type="text/css" />
+
+	<!--Javascript-->
+	<script src="./js/jquery.ticker.js" type="text/javascript"></script>
+
+	<!--Menu responsivo-->
+	<script>
+	function myFunction() {
+	    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+	}
+	/*funcion para marco de noticias*/
+    $(function () {
+        $('#js-news').ticker();
+    });
+	</script>
+
+
+</head>
+
+<body>
+
+<div id="pagina">	
+	<div id="header">
+	<!--menu-->
+	<ul class="topnav">
+		<a href="index.html"><li><img id="iconouacm" src="./imagenes/uacmlogo5.png" title="Social-UACM"></li></a>
+		<li><a href="index.html">Inicio</a></li>	
+		  <li><a href="eventos.html">Eventos</a></li>
+		  <li><a href="certificaciones.html">Certificaciones</a></li>
+		  <li><a href="ingenieria.html">Ing Software</a></li>
+		  <li><a href="practicas.html">Prácticas</a></li>
+		  <li><a href="sesion.html">Iniciar Sesión</a></li>
+		  <li><a href="registro.html">Registrate</a></li>
+
+			<a href="http://www.twitter.com/netozack" target="_blank" ><li><img id="iconos" src="./imagenes/iconotwitter.png" onmouseover="this.src='./imagenes/iconotwitter2.png';" onmouseout="this.src='./imagenes/iconotwitter.png';" title="Twitter"></li></a>
+			<a href="http://www.googleplus.com/ZackMaya" target="_blank"><li><img id="iconos" src="./imagenes/iconogoogle.png" onmouseover="this.src='./imagenes/iconogoogle2.png';" onmouseout="this.src='./imagenes/iconogoogle.png';" title="Google+"></li></a>
+	  		<a href="https://www.facebook.com/uacemita" target="_blank"><li><img id="iconos" src="./imagenes/iconofacebook.png" onmouseover="this.src='./imagenes/iconofacebook2.png';" onmouseout="this.src='./imagenes/iconofacebook.png';" title="Facebook"></li></a>	
+			<a href="https://github.com/ZackMaya/SOCIAL-UACM.git" target="_blank"><li><img id="iconos" src="./imagenes/github1.png" onmouseover="this.src='./imagenes/github2.png';" onmouseout="this.src='./imagenes/github1.png';" title="Github"></li></a>
+		
+
+	<!--menu repsonsivo-->
+		<li class="icon">
+		    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+		</li>
+	</ul>
+	</div>
+
+	<!--Complemento-->
+	<div id="cuerpo">
+		<!--PAra el traductor google-->
+  		<div id="traductor">
+			<div id="google_translate_element">
+				</div>
+					<script type="text/javascript">
+						function googleTranslateElementInit() {
+						new google.translate.TranslateElement({pageLanguage: 'es'}, 'google_translate_element');}
+					</script> 
+					<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript">traductor</script>
+		</div>
+	</div>
+	
+	<iframe src="https://docs.google.com/forms/d/1mxFzexIlz16osLU2LpWO3IQDEBceTW2P8KBv1BwXDso/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
+
+		
+
+
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="copyright">
+			<li>2016 Social-UACM. Open Source | <a href="https://github.com/ZackMaya/SOCIAL-UACM.git" target="_blank">Github</a></li>
+					
+			<li>Diseño: <a href="mailto:netozack@hotmail.com" target="_blank">Ernesto Z. Maya</a><br>
+
+				<a href="http://www.twitter.com/netozack" target="_blank" ><img id="iconos" src="./imagenes/iconotwitter.png" onmouseover="this.src='./imagenes/iconotwitter2.png';" onmouseout="this.src='./imagenes/iconotwitter.png';" title="Twitter"></a>
+						
+				<a href="http://www.googleplus.com/ZackMaya" target="_blank"><img id="iconos" src="./imagenes/iconogoogle.png" onmouseover="this.src='./imagenes/iconogoogle2.png';" onmouseout="this.src='./imagenes/iconogoogle.png';" title="Google+"></a>
+
+  				<a href="https://www.facebook.com/netozack" target="_blank"><img id="iconos" src="./imagenes/iconofacebook.png" onmouseover="this.src='./imagenes/iconofacebook2.png';" onmouseout="this.src='./imagenes/iconofacebook.png';" title="Facebook"></a>
+  			</li>
+			<li>Recursos: Open source | <a href="https://www.uacm.edu.mx" target="_blank">UACM | <a href="mailto:netozack@hotmail.com" target="_blank"> Ernesto Z. Maya</a></li>
+
+			<a href="#"><img id="iconos" src="./imagenes/flecha3d.png"></a>
+		</ul>
+	</footer>
+
+</div>
+</body>
+</html>

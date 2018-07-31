@@ -1,0 +1,45 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+
+	dependencies {
+		/* pnemos la version mas moderna de gradle */		
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:1.3.3.RELEASE")
+		classpath("net.saliman:gradle-cobertura-plugin:2.3.1")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+apply plugin: 'eclipse'
+apply plugin: 'net.saliman.cobertura'
+
+
+jar {
+	baseName = 'Social-UACM'
+	version  = '0.1.0'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	/* aqui ponemos las dependencias de los jar para que se descarguen automaticamente 
+	se buscan como son los repositorios de maven para gradle y los agregamos */
+	compile("org.springframework.boot:spring-boot-starter-web")
+	compile("org.springframework.boot:spring-boot-starter-test")
+	compile("org.springframework.boot:spring-boot-starter-data-jpa")	
+	compile("mysql:mysql-connector-java:5.1.31")
+	compile("org.thymeleaf:thymeleaf-spring4")
+    testCompile("junit:junit")
+    
+    	//Se modifico el gradle
+	//Se grego la parte de seguridad
+	compile("org.springframework.boot:spring-boot-starter-security")
+}
+
+task wrapper(type: Wrapper) {
+	gradleVersion = '2.2.1'
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="social.edu.uacm.test.DocumentoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-06-09T04:20:58" hostname="LAPTOP-D29UP5SP" time="0.204">
+  <properties/>
+  <testcase name="test" classname="social.edu.uacm.test.DocumentoTest" time="0.204"/>
+  <system-out><![CDATA[[DEBUG] SpringJUnit4ClassRunner constructor called with [class social.edu.uacm.test.DocumentoTest]
+[DEBUG] Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+[DEBUG] Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+[DEBUG] Instantiating TestContextBootstrapper for test class [social.edu.uacm.test.DocumentoTest] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+[DEBUG] Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@bc40c66 declaringClass = 'social.edu.uacm.test.DocumentoTest', classes = '{class social.edu.uacm.Application}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+[DEBUG] Did not detect default resource location for test class [social.edu.uacm.test.DocumentoTest]: class path resource [social/edu/uacm/test/DocumentoTest-context.xml] does not exist
+[DEBUG] Did not detect default resource location for test class [social.edu.uacm.test.DocumentoTest]: class path resource [social/edu/uacm/test/DocumentoTestContext.groovy] does not exist
+[INFO] Could not detect default resource locations for test class [social.edu.uacm.test.DocumentoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[DEBUG] Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [social.edu.uacm.test.DocumentoTest]
+[DEBUG] @TestExecutionListeners is not present for class [social.edu.uacm.test.DocumentoTest]: using defaults.
+[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@763eea60, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70a516b2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@480718ac, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5f3c85da, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e5019b7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6189449]
+[DEBUG] Retrieved @ProfileValueSourceConfiguration [null] for test class [social.edu.uacm.test.DocumentoTest]
+[DEBUG] Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [social.edu.uacm.test.DocumentoTest]
+[DEBUG] Retrieved @ProfileValueSourceConfiguration [null] for test class [social.edu.uacm.test.DocumentoTest]
+[DEBUG] Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [social.edu.uacm.test.DocumentoTest]
+[DEBUG] Before test class: context [DefaultTestContext@76aa3e5e testClass = DocumentoTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d836704 testClass = DocumentoTest, locations = '{}', classes = '{class social.edu.uacm.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+[DEBUG] Retrieved @ProfileValueSourceConfiguration [null] for test class [social.edu.uacm.test.DocumentoTest]
+[DEBUG] Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [social.edu.uacm.test.DocumentoTest]
+[DEBUG] Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@4d836704 testClass = DocumentoTest, locations = '{}', classes = '{class social.edu.uacm.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]
+[DEBUG] Spring test ApplicationContext cache statistics: [DefaultContextCache@7e76204 size = 1, parentContextCount = 0, hitCount = 2, missCount = 1]
+[DEBUG] Setting up MockHttpServletRequest, MockHttpServletResponse, ServletWebRequest, and RequestContextHolder for test context [DefaultTestContext@76aa3e5e testClass = DocumentoTest, testInstance = social.edu.uacm.test.DocumentoTest@134042a2, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d836704 testClass = DocumentoTest, locations = '{}', classes = '{class social.edu.uacm.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]].
+[DEBUG] Performing dependency injection for test context [[DefaultTestContext@76aa3e5e testClass = DocumentoTest, testInstance = social.edu.uacm.test.DocumentoTest@134042a2, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d836704 testClass = DocumentoTest, locations = '{}', classes = '{class social.edu.uacm.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+[DEBUG] Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@4d836704 testClass = DocumentoTest, locations = '{}', classes = '{class social.edu.uacm.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]
+[DEBUG] Spring test ApplicationContext cache statistics: [DefaultContextCache@7e76204 size = 1, parentContextCount = 0, hitCount = 3, missCount = 1]
+[DEBUG] Processing injected element of bean 'social.edu.uacm.test.DocumentoTest': AutowiredFieldElement for social.edu.uacm.domain.DocumentoRepository social.edu.uacm.test.DocumentoTest.documentoRepository
+[DEBUG] Returning cached instance of singleton bean 'documentoRepository'
+[DEBUG] Autowiring by type from bean name 'social.edu.uacm.test.DocumentoTest' to bean named 'documentoRepository'
+[DEBUG] Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] Before test method: context [DefaultTestContext@76aa3e5e testClass = DocumentoTest, testInstance = social.edu.uacm.test.DocumentoTest@134042a2, testMethod = test@DocumentoTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d836704 testClass = DocumentoTest, locations = '{}', classes = '{class social.edu.uacm.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[DEBUG] Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+[DEBUG] Opened new EntityManager [org.hibernate.jpa.internal.EntityManagerImpl@7647baf8] for JPA transaction
+[DEBUG] begin
+[DEBUG] Obtaining JDBC connection
+[DEBUG] Obtained JDBC connection
+[DEBUG] initial autocommit status: true
+[DEBUG] disabling autocommit
+[DEBUG] Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@202a4873]
+[DEBUG] Executing identity-insert immediately
+[DEBUG] insert into documentos (alumno, materia, nombreproyecto, tecnologia) values (?, ?, ?, ?)
+Hibernate: insert into documentos (alumno, materia, nombreproyecto, tecnologia) values (?, ?, ?, ?)
+[DEBUG] Natively generated identity: 33
+[DEBUG] Initiating transaction commit
+[DEBUG] Committing JPA transaction on EntityManager [org.hibernate.jpa.internal.EntityManagerImpl@7647baf8]
+[DEBUG] committing
+[DEBUG] Processing flush-time cascades
+[DEBUG] Dirty checking collections
+[DEBUG] Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[DEBUG] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] Listing entities:
+[DEBUG] social.edu.uacm.domain.Documento{tecnologia=Spring, nombreproyecto=PruebasUnitarias, iddocumentos=33, alumno=null, materia=Pruebas}
+[DEBUG] committed JDBC Connection
+[DEBUG] re-enabling autocommit
+[DEBUG] Closing JPA EntityManager [org.hibernate.jpa.internal.EntityManagerImpl@7647baf8] after transaction
+[DEBUG] Closing JPA EntityManager
+[DEBUG] Releasing JDBC connection
+[DEBUG] Released JDBC connection
+[DEBUG] After test method: context [DefaultTestContext@76aa3e5e testClass = DocumentoTest, testInstance = social.edu.uacm.test.DocumentoTest@134042a2, testMethod = test@DocumentoTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d836704 testClass = DocumentoTest, locations = '{}', classes = '{class social.edu.uacm.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[DEBUG] Resetting RequestContextHolder for test context [DefaultTestContext@76aa3e5e testClass = DocumentoTest, testInstance = social.edu.uacm.test.DocumentoTest@134042a2, testMethod = test@DocumentoTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d836704 testClass = DocumentoTest, locations = '{}', classes = '{class social.edu.uacm.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]].
+[DEBUG] After test class: context [DefaultTestContext@76aa3e5e testClass = DocumentoTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d836704 testClass = DocumentoTest, locations = '{}', classes = '{class social.edu.uacm.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
